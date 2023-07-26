@@ -1,0 +1,13 @@
+query getProducts {
+  products {
+    nodes {
+      id
+      title
+      databaseId
+      slug
+      image {
+        sourceUrl
+      }
+    }
+  }
+}
